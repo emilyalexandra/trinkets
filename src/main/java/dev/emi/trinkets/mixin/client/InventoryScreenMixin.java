@@ -1,10 +1,11 @@
-package dev.emi.trinkets.mixin;
+package dev.emi.trinkets.mixin.client;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
+import dev.emi.trinkets.mixin.SlotMixin;
 import net.minecraft.client.gui.screen.ingame.AbstractInventoryScreen;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.screen.PlayerScreenHandler;
